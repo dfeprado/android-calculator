@@ -17,7 +17,8 @@
     <string name="btn_clear_all">CA</string>
     <string name="btn_sum">+</string>
     <string name="btn_minus">-</string>
-    <string name="btn_division">/</string>
+    <string name="btn_division">÷</string>
     <string name="btn_equal">=</string>
     <string name="btn_signal_changer">+/-</string>
+    <string name="enter_a_value">Enter a value</string>
 </resources>

@@ -20,37 +20,50 @@
             android:layout_height="match_parent"
             android:gravity="center">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button8"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="@string/btn_seven" />
+                android:text="@string/btn_seven"
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:background="@drawable/circle" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button18"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="@string/btn_eight" />
+                android:text="@string/btn_eight"
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:background="@drawable/circle"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button4"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="@string/btn_nine" />
+                android:text="@string/btn_nine"
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:background="@drawable/circle"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button9"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="@string/btn_division" />
+                android:text="@string/btn_division"
+                android:textSize="24sp"
+                android:background="@drawable/circle"
+                android:backgroundTint="#FF0000"/>
         </TableRow>
 
         <TableRow
@@ -58,75 +71,100 @@
             android:layout_height="match_parent"
             android:gravity="center">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button5"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="@string/btn_four" />
+                android:text="@string/btn_four"
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:background="@drawable/circle"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button6"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="@string/btn_five" />
+                android:text="@string/btn_five"
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:background="@drawable/circle"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button19"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="@string/btn_six" />
+                android:text="@string/btn_six"
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:background="@drawable/circle"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button7"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="@string/btn_sum" />
+                android:text="@string/btn_sum"
+                android:layout_margin="5dp"
+                android:backgroundTint="#FF0000"
+                android:textSize="24sp"
+                android:background="@drawable/circle"/>
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center">
-
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button11"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="@string/btn_one" />
+                android:text="@string/btn_one"
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:background="@drawable/circle"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button12"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="@string/btn_two" />
+                android:text="@string/btn_two"
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:background="@drawable/circle"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button20"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="@string/btn_three" />
+                android:text="@string/btn_three"
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:background="@drawable/circle"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button10"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="@string/btn_minus" />
+                android:text="@string/btn_minus"
+                android:layout_margin="5dp"
+                android:backgroundTint="#FF0000"
+                android:textSize="24sp"
+                android:background="@drawable/circle"/>
         </TableRow>
 
         <TableRow
@@ -134,59 +172,78 @@
             android:layout_height="match_parent"
             android:gravity="center">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button16"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="@string/btn_signal_changer" />
+                android:text="@string/btn_signal_changer"
+                android:layout_margin="5dp"
+                android:textSize="24sp"
+                android:background="@drawable/circle"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button13"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="@string/btn_zero" />
+                android:text="@string/btn_zero"
+                android:textSize="24sp"
+                android:background="@drawable/circle"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button21"
-                style="@style/Widget.AppCompat.Button.Borderless"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="@string/btn_dot" />
+                android:text="@string/btn_dot"
+                android:textSize="24sp"
+                android:background="@drawable/circle"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button17"
-                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="@string/btn_equal" />
+                android:text="@string/btn_equal"
+                style="?android:borderlessButtonStyle"
+                android:background="@drawable/circle"
+                android:textSize="24sp"
+                android:backgroundTint="#FFFF00" />
 
         </TableRow>
     </TableLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button15"
-        style="@style/Widget.AppCompat.Button.Borderless"
+        style="?android:borderlessButtonStyle"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
         android:layout_weight="1"
+        android:background="@drawable/circle"
+        android:backgroundTint="#00FFFF"
         android:text="@string/btn_clear"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button14"
         app:layout_constraintEnd_toStartOf="@+id/button14"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button14" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button14"
-        style="@style/Widget.AppCompat.Button.Borderless"
+        style="?android:borderlessButtonStyle"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
         android:layout_weight="1"
         android:text="@string/btn_clear_all"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
@@ -194,14 +251,17 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button15"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        android:background="@drawable/circle"
+        android:backgroundTint="#00FFFF"
+        android:textSize="24sp"/>
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Enter a value"
+        android:text="@string/enter_a_value"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
