@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/input"
         app:layout_constraintVertical_bias="0.95"
         tools:layout_editor_absoluteX="219dp">
 
@@ -21,37 +21,40 @@
             android:gravity="center">
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button8"
+                android:id="@+id/sevenBtn"
                 style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="numberButtonClicked"
                 android:text="@string/btn_seven"
-                android:layout_margin="5dp"
-                android:textSize="24sp"
-                android:background="@drawable/circle" />
+                android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button18"
+                android:id="@+id/eightBtn"
                 style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="numberButtonClicked"
                 android:text="@string/btn_eight"
-                android:layout_margin="5dp"
-                android:textSize="24sp"
-                android:background="@drawable/circle"/>
+                android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button4"
+                android:id="@+id/nineBtn"
                 style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
-                android:layout_weight="1"
-                android:text="@string/btn_nine"
                 android:layout_margin="5dp"
-                android:textSize="24sp"
-                android:background="@drawable/circle"/>
+                android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="numberButtonClicked"
+                android:text="@string/btn_nine"
+                android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button9"
@@ -72,37 +75,40 @@
             android:gravity="center">
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button5"
+                android:id="@+id/fourBtn"
                 style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="numberButtonClicked"
                 android:text="@string/btn_four"
-                android:layout_margin="5dp"
-                android:textSize="24sp"
-                android:background="@drawable/circle"/>
+                android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button6"
+                android:id="@+id/fiveBtn"
                 style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="numberButtonClicked"
                 android:text="@string/btn_five"
-                android:layout_margin="5dp"
-                android:textSize="24sp"
-                android:background="@drawable/circle"/>
+                android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button19"
+                android:id="@+id/sixBtn"
                 style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
-                android:layout_weight="1"
-                android:text="@string/btn_six"
                 android:layout_margin="5dp"
-                android:textSize="24sp"
-                android:background="@drawable/circle"/>
+                android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="numberButtonClicked"
+                android:text="@string/btn_six"
+                android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button7"
@@ -121,38 +127,42 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center">
+
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button11"
+                android:id="@+id/oneBtn"
                 style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="numberButtonClicked"
                 android:text="@string/btn_one"
-                android:layout_margin="5dp"
-                android:textSize="24sp"
-                android:background="@drawable/circle"/>
+                android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button12"
+                android:id="@+id/twoBtn"
                 style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="numberButtonClicked"
                 android:text="@string/btn_two"
-                android:layout_margin="5dp"
-                android:textSize="24sp"
-                android:background="@drawable/circle"/>
+                android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button20"
+                android:id="@+id/threeBtn"
                 style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
-                android:layout_weight="1"
-                android:text="@string/btn_three"
                 android:layout_margin="5dp"
-                android:textSize="24sp"
-                android:background="@drawable/circle"/>
+                android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="numberButtonClicked"
+                android:text="@string/btn_three"
+                android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button10"
@@ -184,15 +194,16 @@
                 android:background="@drawable/circle"/>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button13"
+                android:id="@+id/zeroBtn"
                 style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="numberButtonClicked"
                 android:text="@string/btn_zero"
-                android:textSize="24sp"
-                android:background="@drawable/circle"/>
+                android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button21"
@@ -229,6 +240,7 @@
         android:layout_weight="1"
         android:background="@drawable/circle"
         android:backgroundTint="#00FFFF"
+        android:onClick="clear"
         android:text="@string/btn_clear"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/button14"
@@ -250,14 +262,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button15"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/input"
         app:layout_constraintVertical_bias="1.0"
         android:background="@drawable/circle"
         android:backgroundTint="#00FFFF"
         android:textSize="24sp"/>
 
     <EditText
-        android:id="@+id/textView2"
+        android:id="@+id/input"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
