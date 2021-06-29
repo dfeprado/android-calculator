@@ -57,16 +57,17 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button9"
+                android:id="@+id/divBtn"
                 style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="@string/btn_division"
-                android:textSize="24sp"
                 android:background="@drawable/circle"
-                android:backgroundTint="#FF0000"/>
+                android:backgroundTint="#FF0000"
+                android:onClick="operationClicked"
+                android:text="@string/btn_division"
+                android:textSize="24sp" />
         </TableRow>
 
         <TableRow
@@ -111,16 +112,17 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button7"
+                android:id="@+id/plusBtn"
                 style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
-                android:layout_weight="1"
-                android:text="@string/btn_sum"
                 android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:backgroundTint="#FF0000"
-                android:textSize="24sp"
-                android:background="@drawable/circle"/>
+                android:onClick="operationClicked"
+                android:text="@string/btn_sum"
+                android:textSize="24sp" />
         </TableRow>
 
         <TableRow
@@ -165,16 +167,17 @@
                 android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/button10"
+                android:id="@+id/minusBtn"
                 style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
-                android:layout_weight="1"
-                android:text="@string/btn_minus"
                 android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle"
                 android:backgroundTint="#FF0000"
-                android:textSize="24sp"
-                android:background="@drawable/circle"/>
+                android:onClick="operationClicked"
+                android:text="@string/btn_minus"
+                android:textSize="24sp" />
         </TableRow>
 
         <TableRow
@@ -187,11 +190,12 @@
                 style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
-                android:layout_weight="1"
-                android:text="@string/btn_signal_changer"
                 android:layout_margin="5dp"
-                android:textSize="24sp"
-                android:background="@drawable/circle"/>
+                android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="onInvertSignalClick"
+                android:text="@string/btn_signal_changer"
+                android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/zeroBtn"
@@ -212,21 +216,23 @@
                 android:layout_height="80dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="numberButtonClicked"
                 android:text="@string/btn_dot"
-                android:textSize="24sp"
-                android:background="@drawable/circle"/>
+                android:textSize="24sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button17"
+                style="?android:borderlessButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:text="@string/btn_equal"
-                style="?android:borderlessButtonStyle"
                 android:background="@drawable/circle"
-                android:textSize="24sp"
-                android:backgroundTint="#FFFF00" />
+                android:backgroundTint="#FFFF00"
+                android:onClick="equalOperatorClicked"
+                android:text="@string/btn_equal"
+                android:textSize="24sp" />
 
         </TableRow>
     </TableLayout>
@@ -257,16 +263,17 @@
         android:layout_height="80dp"
         android:layout_margin="5dp"
         android:layout_weight="1"
+        android:background="@drawable/circle"
+        android:backgroundTint="#00FFFF"
+        android:onClick="clearAll"
         android:text="@string/btn_clear_all"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button15"
         app:layout_constraintTop_toBottomOf="@+id/input"
-        app:layout_constraintVertical_bias="1.0"
-        android:background="@drawable/circle"
-        android:backgroundTint="#00FFFF"
-        android:textSize="24sp"/>
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/input"
@@ -281,6 +288,21 @@
         android:importantForAutofill="no"
         android:inputType="none"
         tools:ignore="LabelFor"
-        android:textAlignment="textEnd"/>
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textAlignment="viewEnd"
+        app:layout_constraintBottom_toTopOf="@+id/button15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:layout_constraintVertical_bias="0.13999999"
+        tools:text="Display"
+        android:textSize="20sp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
